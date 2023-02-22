@@ -1,0 +1,520 @@
+
+body{
+  background-color: bisque;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: rgb(185, 122, 40);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100px;
+  color:burlywood;
+  -webkit-text-stroke: 5px black;
+}
+
+/* Login form container */
+.login-container {
+    background-color: burlywood;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Login form title */
+  h2 {
+    color: rgba(129, 57, 6, 0.834);
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="password"] {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+  }
+  
+  /* Input labels */
+  label {
+    color: #333333;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Login button */
+  .login-button {
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    color: brown;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(247, 214, 167);
+  }
+  
+  /* Signup button */
+
+   
+  .signup-button {
+    background-color: bisque;
+    color: brown;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+
+  
+  .signup-button:hover {
+    background-color: rgb(247, 214, 167);
+  }
+
+  .back-to-login-button{
+    background-color: bisque;
+    color: brown;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+
+  }
+
+  .back-to-login-button:hover{
+    background-color: rgb(247, 214, 167);
+  }
+  
+  /*Signup section*/
+
+  .signup-container {
+    background-color: burlywood;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(129, 57, 6, 0.834);
+  }
+  
+  .signup-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .signup-label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .signup-input {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+
+
+  /* Error message */
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* Recipe List */
+.body-background {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .recipe-container {
+    margin: 20px;
+    background-color: burlywood;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 25px;
+  }
+  
+  .recipe-image {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .recipe-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+    padding: 0 10px;
+  }
+  
+  .recipe-cuisine-type {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .recipe-link {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: brown;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .recipe-link:hover {
+    background-color: rgb(247, 214, 167);
+  }
+
+  .edit-link {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: brown;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .edit-link:hover {
+    background-color: rgb(247, 214, 167);
+  }
+  
+  
+  
+  .logout-button {
+    display: inline;
+    background-color: burlywood;
+    color: brown;
+    padding: 10px 20px;
+    border: none;
+    position: relative;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+
+  .logout-button:hover{
+    background-color: rgb(247, 214, 167);
+  }
+
+  
+  .create-recipe-button {
+    display: inline;
+    background-color: burlywood;
+    color: brown;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .create-recipe-button:hover{
+    background-color: rgb(247, 214, 167);
+  }
+
+  .edit-recipe-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .details-container{
+    background-color: burlywood;
+    border-color: black;
+    padding: 50px;
+  }
+  
+  .edit-recipe-header {
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  
+  .edit-recipe-image {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .edit-recipe-cuisine-type {
+    font-size: 1.5rem;
+  }
+  
+  .edit-recipe-ingredients,
+  .edit-recipe-directions,
+  .edit-recipe-notes {
+    margin-bottom: 10px;
+  }
+  
+
+  .edit-recipe-form {
+    margin-top: 20px;
+  }
+  
+  .edit-recipe-form-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .edit-recipe-form-input-ingredients,
+  .edit-recipe-form-input-directions{
+    display: block;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .edit-recipe-form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: burlywood;
+    color: brown;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .edit-recipe-form-button:hover{
+    background-color: rgb(247, 214, 167);
+  }
+  
+  .edit-recipe-delete-button {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: burlywood;
+    color: brown;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .edit-recipe-delete-button:hover{
+    background-color: rgb(247, 214, 167);
+  }
+  
+  .edit-recipe-back-button {
+    display: inline-block;
+    background-color: burlywood;
+    color: brown;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .edit-recipe-back-button:hover{
+    background-color: rgb(247, 214, 167);
+  }
+
+
+//   Create Recipes
+
+.create-recipe-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .create-recipe-form-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .create-recipe-form-input-ingredients,
+  .create-recipe-form-input-directions{
+    display: inline;
+    width: 94%;
+    height: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    word-wrap: break-word;
+    align-content: left;
+
+  }
+
+  .create-recipe-form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: burlywood;
+    color: brown;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+
+  .create-recipe-form-button:hover {
+    background-color: rgb(247, 214, 167);
+  }
+  
+
+  /*View Recipe Details*/
+
+  .recipe-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .recipe-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .recipe-details__dishName {
+    font-size: 36px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .recipe-details__image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .recipe-details__cuisineType {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .recipe-details__ingredients {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .recipe-details__directions {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .recipe-details__notes {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .recipe-details__redirect {
+    background-color:burlywood;
+    color: brown;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom:25px;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  
+  .recipe-details__redirect:hover {
+    background-color: rgb(247, 214, 167);
+  }
+  
+  
+
+  
+  
+  
