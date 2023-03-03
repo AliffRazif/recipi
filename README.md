@@ -12,7 +12,7 @@ Aliff and Lemuel
 * Recipes can be created, edited, and deleted.
 * There is user authentication whereby a user will each have their own account and see what recipes they have added and make any changes if they would like to. 
 
-## Chanllenges
+## Challenges
 * The most challenging part of this project was setting up the user sessions for authorization. 
 * Linking each recipe created to the user in the database was also quite challenge. 
 
