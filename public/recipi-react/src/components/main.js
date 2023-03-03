@@ -14,7 +14,7 @@ export default function Main () {
     const [userData, setUserData] = useState("");
     const nav = useNavigate()
 
-    const URL = 'process.env.REACT_APP_BACKENDAPI;
+    const URL = process.env.REACT_APP_BACKENDAPI;
 
    
         const checkLoggedIn =  () => {
