@@ -17,7 +17,7 @@ Aliff and Lemuel
 * Linking each recipe created to the user in the database was also quite challenge. 
 
 ## Technology in Use
-* MERN Stack (MongoDB,Express,React, and Node.js
+* MERN Stack (MongoDB,Express,React, and Node.js)
 
 
 ## Notes For the Future
