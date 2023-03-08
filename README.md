@@ -24,5 +24,8 @@ Aliff and Lemuel
 * Make the app more personalized to the user, maybe add a feature where they can favorite their most liked recipes.
 * Pull recipes from online maybe using API. 
 
+## App Link
+https://recipi-react.onrender.com
+
 
 
