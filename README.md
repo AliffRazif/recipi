@@ -22,7 +22,7 @@ Aliff and Lemuel
 
 ## Notes For the Future
 * Make the app more personalized to the user, maybe add a feature where they can favorite their most liked recipes.
-* Pull recipes from online maybe using API. 
+* Pull recipes from online maybe using an API. 
 
 ## App Link
 https://recipi-react.onrender.com
